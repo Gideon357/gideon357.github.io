@@ -11,16 +11,17 @@ export const headData = {
 export const heroData = {
   title: 'Hello, my name is',
   name: 'Gideon Grinberg',
-  subtitle: 'Just a kid with a keyboard',
+  subtitle: "I'm just a kid with a keyboard.",
   cta: 'Learn More',
 };
 
 // ABOUT DATA
 export const aboutData = {
-  img:
-    'https://images.unsplash.com/photo-1511367461989-f85a21fda167?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60',
+  img: 'profile.jpeg',
   paragraphOne:
     "Hi! My name is Gideon Grinberg. I am 14, and I've been coding for 3 years. This is my personal site (coding project), blog (random musings), and porfolio. I mainly code in Python, C, and Dart but I also use HTML/CSS/JS, C++, Java, Rust, and more! I enjoy all projects, including front- and back-end, AI/ML, and everything else. Check out some of my work below. \n Note: This site is a work in progress.",
+  paragraphTwo: '\n',
+  paragraphThree: '\n',
   resume: 'https://gideon357.github.io/resume.pdf',
 };
 
