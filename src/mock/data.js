@@ -51,15 +51,6 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    // img: 'player.gif',
-    title: 'Soundcloud Desktop',
-    info: 'A React/Electron music player, using the Soundcloud API, based on a Scotch tutorial',
-    info2: 'Note: Screenshot from scotch.io',
-    url: '/#!',
-    repo: 'https://github.com/gideon357/soundcloud-desktop', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
     img: 'chat.png',
     title: 'Realtime Chat',
     info:
