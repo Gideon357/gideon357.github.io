@@ -49,16 +49,6 @@ export const projectsData = [
     url: 'https://gideon357.github.io/404',
     repo: 'https://github.com/gideon357/web-framework', // if no repo, the button will not show up
   },
-  {
-    id: nanoid(),
-    img: 'chat.png',
-    title: 'Realtime Chat',
-    info:
-      'A  very simple realtime chat application with sentiment analysis, and push notifications. Built with React, Next.js, Pusher and Node.',
-    info2: '',
-    url: 'https://gideon357.github.io/realtime-chat',
-    repo: 'https://github.com/gideon357/realtime-chat', // if no repo, the button will not show up
-  },
 ];
 
 // CONTACT DATA
