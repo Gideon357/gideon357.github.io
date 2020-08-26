@@ -2,7 +2,7 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: 'Gideon Grinberg | Website', // e.g: 'Name | Developer'
+  title: 'Gideon Grinberg | Developer', // e.g: 'Name | Developer'
   lang: 'en-US', // e.g: en, es, fr, jp
   description: 'Welcome to my website', // e.g: Welcome to my website
 };
@@ -29,38 +29,52 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'viralcheck.png',
+    title: 'ViralCheck',
+    info:
+      'A social media experience for aspiring YouTube creators looking for a platform to share ideas, find inspiration, and even get creative with some of the machine learning features. It includes a ML view predictor, and a content sharing function.',
+    info2:
+      "I built this for MLH's NotUniversity Hackathon, and it won 5th place in the Innovation in STEM Hackathon",
+    repo: 'https://devpost.com/software/viralcheck-social-media-app',
+    url: 'https://viralcheck-1.aahmad4.repl.co/',
   },
   {
     id: nanoid(),
     img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    title: 'Web Framework (Working Title)',
+    info:
+      'This is my latest project. It is a Python framework to build frontend web apps. It is built on top of WebAssembly and a virtual DOM',
+    info2:
+      "It is currently a work in progress, so the repo won't refelct all recent work. This project was inspired by my experiences with frontend, including in hackathons. I had observed how difficult it was to build frontends, and connect them with Python, especially with ML. While Flask and Django solve this, it is challenging to coordinate frontend, backend, and design. Frameworks like Flutter seek to rectify this, and this project tries to do the same for Python ",
+    url: 'https://gideon357.github.io/404',
+    repo: 'https://github.com/gideon357/web-framework', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    // img: 'player.gif',
+    title: 'Soundcloud Desktop',
+    info: 'A React/Electron music player, using the Soundcloud API, based on a Scotch tutorial',
+    info2: 'Note: Screenshot from scotch.io',
+    url: '/#!',
+    repo: 'https://github.com/gideon357/soundcloud-desktop', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'chat.png',
+    title: 'Realtime Chat',
+    info:
+      'A  very simple realtime chat application with sentiment analysis, and push notifications. Built with React, Next.js, Pusher and Node.',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://gideon357.github.io/realtime-chat',
+    repo: 'https://github.com/gideon357/realtime-chat', // if no repo, the button will not show up
   },
 ];
 
 // CONTACT DATA
 export const contactData = {
-  cta: '',
-  btn: '',
-  email: '',
+  cta: "Let's get in touch!",
+  btn: 'Contact Me',
+  email: 'grinberg1165@gmail.com',
 };
 
 // FOOTER DATA
@@ -68,28 +82,18 @@ export const footerData = {
   networks: [
     {
       id: nanoid(),
-      name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'linkedin',
-      url: '',
-    },
-    {
-      id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/gideon357',
+    },
+    {
+      id: nanoid(),
+      name: 'file',
+      url: 'https://gideon357.github.io/resume.pdf',
     },
   ],
 };
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
