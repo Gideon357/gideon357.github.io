@@ -38,8 +38,21 @@ const Footer = () => {
         </div>
         <hr />
         <p className="footer__text">
-          © {new Date().getFullYear()} Gideon Grinberg - Based on simplefolio template by Jacob
-          Martinez
+          Made with ♥️, 🧠, &amp; 🏳️‍🌈 <a href="/">Gideon Grinberg</a>. ©{' '}
+          {new Date().getFullYear() || 2020} .{' '}
+          <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
+            <img
+              alt="Creative Commons License"
+              style="border-width:0"
+              src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png"
+            />
+          </a>
+          <br />
+          This work is licensed under a{' '}
+          <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
+            Creative Commons Attribution-ShareAlike 4.0 International License
+          </a>
+          .
         </p>
 
         {isEnabled && <GithubButtons />}

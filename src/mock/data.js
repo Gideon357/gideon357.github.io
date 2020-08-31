@@ -19,8 +19,8 @@ export const heroData = {
 export const aboutData = {
   img: 'profile.jpeg',
   paragraphOne:
-    "Hi! My name is Gideon Grinberg. I am 14, and I've been coding for 3 years. This is my personal site (coding project), blog (random musings), and porfolio. I mainly code in Python, C, and Dart but I also use HTML/CSS/JS, C++, Java, Rust, and more! I enjoy all projects, including front- and back-end, AI/ML, and everything else. Check out some of my work below. \n Note: This site is a work in progress.",
-  paragraphTwo: '\n',
+    "Hi! My name is Gideon Grinberg. I am 14, and I've been coding for 3 years. This is my personal site (coding project), blog (random musings), and porfolio. I mainly code in Python, C, and Dart but I also use HTML/CSS/JS, C++, Java, Rust, and more! I enjoy all projects, including front- and back-end, AI/ML, and everything else. Check out some of my work below. ",
+  paragraphTwo: 'Note: This site is a work in progress.',
   paragraphThree: '\n',
   resume: 'https://gideon357.github.io/resume.pdf',
 };
